@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgba(169, 163, 163, 0.966);
+    background-color: black;
     height: 100vh;
 }
 
@@ -32,4 +32,8 @@ header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+header a{
+    color: #fff;
 }
