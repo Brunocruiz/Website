@@ -1,4 +1,5 @@
 
+/* ESTILO GERAL */
 *{
     margin: 0;
     padding: 0;
@@ -18,4 +19,10 @@ body{
 .logo img{
     max-width: 180px;
     max-height: 180px;
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header{
+    padding: 40px 4%;
 }
