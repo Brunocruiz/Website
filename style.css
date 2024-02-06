@@ -36,6 +36,7 @@ header > .interface{
 
 header a{
     color: #fff;
+    text-decoration: none;
 }
 
 header nav ul{
