@@ -265,3 +265,8 @@ section.portfolio .flex{
 section.formulario{
     padding: 80px 4%;
 }
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+}
