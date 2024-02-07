@@ -101,3 +101,16 @@ section.topo-do-site .flex{
     color: #fff;
     margin: 40px 0;
 }
+
+/* KEYFRAMES */
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+        opacity: 1;
+    }
+    100%{
+        top: 30px;
+        opacity: 1;
+    }
+}
