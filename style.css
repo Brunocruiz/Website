@@ -293,10 +293,11 @@ form textarea{
 
 form .btn-enviar{
     margin-top: 17px;
+    text-align: center;
 }
 
 form .btn-enviar input[type=submit]{
     width: 120px;
-    display: flex;
-    justify-content: center;
+    background-color: rgb(0, 183, 255);
+    color: black;
 }
