@@ -231,6 +231,6 @@ section.portfolio .flex{
     border-radius: 40px;
 }
 
-img-port:hover{
+.img-port:hover{
     background-position: 100% 50%;
 }
