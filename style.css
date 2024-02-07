@@ -202,7 +202,7 @@ section.sobre .flex{
     margin: 0 5px;
 }
 
-.sobre .txt-sobre .btn-social button:hover{
+.btn-social button:hover{
     background-color: black;
     color: #fff;
     transform: scale(1.01);
