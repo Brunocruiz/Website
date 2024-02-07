@@ -246,6 +246,7 @@ section.portfolio .flex{
 
 .overlay:hover{
     font-size: 26px;
+    align-items: center;
     text-align: center;
     color: #fff;
     background-color: #000000a4;
