@@ -334,6 +334,9 @@ footer .line-footer{
 
 footer .line-footer p a{
     color: #fff;
+}
+
+footer .line-footer p{
     cursor: pointer;
 }
 
