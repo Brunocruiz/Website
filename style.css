@@ -245,7 +245,7 @@ section.portfolio .flex{
 }
 
 .overlay:hover{
-    background-color: #fff;
+    background-color: #000000a4;
     border: 0;
     border-radius: 40px;
 }
