@@ -340,5 +340,5 @@ footer .line-footer p a{
 footer .line-footer p i{
     color: rgb(0, 183, 255);
     font-size: 22px;
-    gap: 15px;
+    margin-bottom: 15px;
 }
