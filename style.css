@@ -244,11 +244,14 @@ section.portfolio .flex{
     height: 100%;
     border: 0;
     border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 550;
 }
 
 .overlay:hover{
-    font-size: 26px;
-    text-align: center;
     color: #fff;
     background-color: #000000a4;
 
