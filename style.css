@@ -297,10 +297,18 @@ form .btn-enviar{
     text-align: center;
 }
 
-form .btn-enviar input[type=submit]{
+form .btn-enviar input{
     width: 120px;
     background-color: rgb(0, 183, 255);
     color: black;
     font-weight: 700;
     cursor: pointer;
+}
+
+form .btn-enviar input:hover{
+    background-color: black;
+    color: #fff;
+    transform: scale(1.01);
+    box-shadow: 0 0 17px #ffffff95;
+    transition: 1.2s;
 }
