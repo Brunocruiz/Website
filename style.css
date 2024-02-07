@@ -191,7 +191,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -202,7 +202,7 @@ section.sobre .flex{
     margin: 0 5px;
 }
 
-.btn-social button:hover{
+.sobre .txt-sobre .btn-social button:hover{
     background-color: black;
     color: #fff;
     transform: scale(1.01);
