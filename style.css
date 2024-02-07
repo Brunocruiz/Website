@@ -17,6 +17,10 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+}
+
 .logo img{
     max-width: 180px;
     max-height: 180px;
