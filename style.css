@@ -141,8 +141,13 @@ section.especialidades .flex{
     color: #fff;
     padding: 40px;
     border-radius: 20px;
-    border: 2px solid #fff;
     margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff95;
 }
 
 .especialidades .especialidades-box i{
