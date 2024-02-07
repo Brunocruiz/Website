@@ -132,3 +132,13 @@ section.topo-do-site .flex{
 section.especialidades{
     padding: 40px 4%;
 }
+
+.especialidades .especialidades-box{
+    color: #fff;
+    padding: 40px;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: rgb(0, 183, 255);
+}
