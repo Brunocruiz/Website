@@ -225,4 +225,5 @@ section.portfolio .flex{
     width: 360px;
     height: 460px;
     background-size: cover;
+    background-position: 100% 0%;
 }
