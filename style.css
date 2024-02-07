@@ -197,4 +197,5 @@ section.sobre .flex{
     border: none;
     background-color: rgb(0, 183, 255);
     font-size: 21px;
+    cursor: pointer;
 }
