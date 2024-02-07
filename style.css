@@ -37,6 +37,7 @@ header > .interface{
 header a{
     color: #636262;
     text-decoration: none;
+    display: inline-block;
 }
 
 header a:hover{
