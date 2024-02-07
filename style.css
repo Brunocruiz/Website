@@ -290,3 +290,7 @@ form textarea{
     resize: none;
     height: 185px;
 }
+
+form .btn-enviar{
+    margin-top: 30px;
+}
