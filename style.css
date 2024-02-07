@@ -315,7 +315,6 @@ form .btn-enviar input:hover{
 
 /* DESIGN FOOTER */
 
-footer img .images{
-    max-width: 110px;
-    max-height: 110px;
+footer{
+    padding: 60px 4%;
 }
