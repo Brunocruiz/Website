@@ -294,3 +294,7 @@ form textarea{
 form .btn-enviar{
     margin-top: 17px;
 }
+
+form .btn-enviar input[type=submit]{
+    width: 120px;
+}
