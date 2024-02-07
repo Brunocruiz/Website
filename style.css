@@ -84,3 +84,8 @@ section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
 }
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 38px;
+}
