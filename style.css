@@ -288,5 +288,5 @@ form input, form textarea{
 
 form textarea{
     resize: none;
-    max-height: 50px;
+    max-height: 200px;
 }
