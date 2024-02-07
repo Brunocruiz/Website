@@ -173,3 +173,11 @@ section.sobre .flex{
 .sobre .txt-sobre{
     color: #fff;
 }
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: rgb(0, 183, 255);
+}
