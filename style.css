@@ -203,4 +203,5 @@ section.sobre .flex{
 .sobre .txt-sobre .btn-social button:hover{
     background-color: black;
     color: #fff;
+    transition: .2s;
 }
