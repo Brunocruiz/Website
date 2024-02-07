@@ -26,6 +26,16 @@ body{
     max-height: 180px;
 }
 
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(0, 183, 255);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
 /* ESTILO DO CABEÇALHO */
 
 header{
@@ -59,17 +69,7 @@ header nav ul li{
     padding: 0 40px;
 }
 
-.btn-contato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: rgb(0, 183, 255);
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-header .btn-contato button:hover{
+.btn-contato button:hover{
     box-shadow: 0px 0px 8px rgba(0, 183, 255, 0.86);
     transition: 1.3;
 }
