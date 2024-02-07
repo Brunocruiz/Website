@@ -324,7 +324,10 @@ footer .flex{
     justify-content: space-between;
 }
 
-
+footer .line-footer p a{
+    color: #fff;
+    text-decoration: none;
+}
 
 footer .line-footer p i{
     color: rgb(0, 183, 255);
