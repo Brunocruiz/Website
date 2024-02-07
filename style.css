@@ -319,3 +319,7 @@ footer{
     padding: 45px 4%;
     box-shadow: 0 0 40px 10px #ffffff34;
 }
+
+footer .flex{
+    justify-content: space-between;
+}
