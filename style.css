@@ -217,8 +217,12 @@ section.portfolio{
     box-shadow: 0 0 40px 10px #ffffff34;
 }
 
+section.portfolio .flex{
+    gap: 84px;
+}
+
 .img-port{
-    width: 440px;
+    width: 3600px;
     height: 460px;
     background-color: #fff;
 }
