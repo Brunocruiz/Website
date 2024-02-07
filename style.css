@@ -133,9 +133,15 @@ section.especialidades{
     padding: 40px 4%;
 }
 
+section.especialidades .flex{
+    gap: 60px;
+}
+
 .especialidades .especialidades-box{
     color: #fff;
     padding: 40px;
+    border: 2px solid #fff;
+    margin-top: 45px;
 }
 
 .especialidades .especialidades-box i{
@@ -145,5 +151,5 @@ section.especialidades{
 
 .especialidades .especialidades-box h3{
     font-size: 28px;
-    margin: 15px 0;
+    margin: 15px 0;;
 }
