@@ -278,4 +278,6 @@ form{
 form input{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.123);
+    border: 0;
+    outline: 0;
 }
