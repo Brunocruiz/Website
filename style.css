@@ -285,3 +285,7 @@ form input{
     color: #fff;
     font-size: 16px;
 }
+
+form input::placeholder{
+    color: rgba(0, 183, 255, 0.447);
+}
