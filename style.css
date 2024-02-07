@@ -325,12 +325,11 @@ footer .flex{
 }
 
 footer.line-footer{
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .borda {
     border-top: 2px solid rgb(0, 183, 255);
-    gap: 10px;
 }
 
 footer .line-footer p a{
