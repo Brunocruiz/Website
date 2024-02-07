@@ -199,3 +199,8 @@ section.sobre .flex{
     font-size: 21px;
     cursor: pointer;
 }
+
+.sobre .txt-sobre .btn-social button:hover{
+    background-color: black;
+    color: #fff;
+}
