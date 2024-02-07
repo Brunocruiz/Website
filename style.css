@@ -250,6 +250,7 @@ section.portfolio .flex{
     font-size: 25px;
     font-weight: 550;
     opacity: 0;
+    transition: .5s;
 }
 
 .overlay:hover{
