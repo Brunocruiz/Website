@@ -164,3 +164,7 @@ section.especialidades .flex{
 section.sobre{
     padding: 40px 4%;
 }
+
+.sobre .txt-sobre{
+    color: #fff;
+}
