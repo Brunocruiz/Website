@@ -275,7 +275,7 @@ form{
     gap: 13px;
 }
 
-form input{
+form input, form textarea{
     width: 100%;
     background-color: rgba(71, 68, 68, 0.827);
     border: 0;
@@ -284,8 +284,4 @@ form input{
     border-radius: 8px;
     color: #fff;
     font-size: 16px;
-}
-
-form input::placeholder{
-    color: rgba(0, 183, 255, 0.447);
 }
