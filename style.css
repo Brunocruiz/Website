@@ -79,3 +79,8 @@ header .btn-contato button:hover{
 section.topo-do-site{
     padding: 40px 4%;
 }
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+}
