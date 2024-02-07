@@ -36,6 +36,16 @@ body{
     cursor: pointer;
 }
 
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: rgb(0, 183, 255);
+}
+
 /* ESTILO DO CABEÇALHO */
 
 header{
@@ -116,4 +126,9 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+/* ESTILO ESPECIALIDADES */
+section.especialidades{
+    padding: 40px 4%;
 }
