@@ -208,3 +208,10 @@ section.sobre .flex{
     box-shadow: 0 0 17px #ffffff95;
     transition: 1.2s;
 }
+
+/* ESTILO DO PORTFÓLIO */
+
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff5e;
+}
