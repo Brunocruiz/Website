@@ -297,4 +297,6 @@ form .btn-enviar{
 
 form .btn-enviar input[type=submit]{
     width: 120px;
+    display: flex;
+    justify-content: center;
 }
