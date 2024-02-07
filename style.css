@@ -312,3 +312,10 @@ form .btn-enviar input:hover{
     box-shadow: 0 0 17px #ffffff95;
     transition: 1.2s;
 }
+
+/* DESIGN FOOTER */
+
+img .images{
+    max-width: 11px;
+    max-height: 110px;
+}
