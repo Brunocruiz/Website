@@ -43,6 +43,7 @@ header a{
 header a:hover{
     color: #fff;
     transform: scale(1.05);
+    transition: 1.8s;
 }
 
 header nav ul{
