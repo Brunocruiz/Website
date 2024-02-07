@@ -249,10 +249,12 @@ section.portfolio .flex{
     justify-content: center;
     font-size: 25px;
     font-weight: 550;
+    opacity: 0;
 }
 
 .overlay:hover{
     color: #fff;
+    opacity: 1;
     background-color: #000000a4;
     box-shadow: 0 0 12px #ffffff1c;
 }
