@@ -300,4 +300,5 @@ form .btn-enviar input[type=submit]{
     width: 120px;
     background-color: rgb(0, 183, 255);
     color: black;
+    font-weight: 700;
 }
