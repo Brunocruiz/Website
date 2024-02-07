@@ -327,6 +327,7 @@ footer .flex{
 footer .line-footer p a{
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
 }
 
 footer .line-footer p i{
