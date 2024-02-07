@@ -163,6 +163,7 @@ section.especialidades .flex{
 /* ESTILO DO SOBRE */
 section.sobre{
     padding: 85px 4%;
+    box-shadow: 0 0 40px 10px #ffffff34;
 }
 
 section.sobre .flex{
