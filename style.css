@@ -83,6 +83,7 @@ section.topo-do-site{
 section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
+    gap: 90px;
 }
 
 .topo-do-site h1{
