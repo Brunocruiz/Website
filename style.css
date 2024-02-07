@@ -324,7 +324,7 @@ footer .flex{
     justify-content: space-between;
 }
 
-footer.line-footer{
+footer .line-footer{
     padding: 20px 0;
 }
 
@@ -340,5 +340,4 @@ footer .line-footer p a{
 footer .line-footer p i{
     color: rgb(0, 183, 255);
     font-size: 22px;
-    margin-bottom: 15px;
 }
