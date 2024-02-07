@@ -53,4 +53,7 @@ header .btn-contato button{
     font-size: 18px;
     font-weight: 600;
     background-color: rgb(0, 183, 255);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
 }
