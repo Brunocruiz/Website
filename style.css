@@ -379,4 +379,9 @@ footer .line-footer p i{
     section.topo-do-site .flex{
         gap: 45px;
     }
+
+    /* ESPECIALIDADES */
+    section.especialidades{
+        padding: 40px 10%;
+    }
 }
