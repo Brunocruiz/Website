@@ -397,3 +397,7 @@ footer .line-footer p i{
     .sobre .txt-sobre h2{
         font-size: 30px;
     }
+
+    .btn-social button{
+        padding: 85px 10%;
+    }
