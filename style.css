@@ -384,4 +384,8 @@ footer .line-footer p i{
     section.especialidades{
         padding: 40px 10%;
     }
+
+    h2.titulo{
+        font-size: 30px;
+    }
 }
