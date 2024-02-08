@@ -390,4 +390,6 @@ footer .line-footer p i{
     }
 
     /* SOBRE */
-    
+    .sobre .txt-sobre h2{
+        font-size: 30px;
+    }
