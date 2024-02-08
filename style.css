@@ -390,6 +390,10 @@ footer .line-footer p i{
     }
 
     /* SOBRE */
+    section.sobre{
+        padding: 85px 8%;
+    }
+
     .sobre .txt-sobre h2{
         font-size: 30px;
     }
