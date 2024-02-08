@@ -400,5 +400,8 @@ footer .line-footer p i{
 
     .btn-social{
         text-align: center;
-        margin-top: 15px;
+    }
+
+    .img-sobre img{
+        width: 100%;
     }
