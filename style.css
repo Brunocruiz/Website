@@ -346,7 +346,7 @@ footer .line-footer p i{
 }
 
 @media screen and (max-width: 1020px) {
-    .menu-desktop{
+    .menu-desktop, .btn-contato{
         display: none;
     }
 }
