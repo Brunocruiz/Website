@@ -391,7 +391,6 @@ footer .line-footer p i{
 
     /* SOBRE */
     section.sobre .flex{
-        flex-direction: column-reverse;
         gap: 45px;
     }
 }
