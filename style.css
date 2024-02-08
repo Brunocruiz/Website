@@ -364,7 +364,12 @@ footer .line-footer p i{
     }
 
     /* TOPO DO SITE */
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
     .topo-do-site h1{
         font-size: 30px;
     }
+
 }
