@@ -362,4 +362,9 @@ footer .line-footer p i{
     .menu-desktop, .btn-contato{
         display: none;
     }
+
+    /* TOPO DO SITE */
+    .topo-do-site h1{
+        font-size: 30px;
+    }
 }
