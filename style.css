@@ -345,7 +345,20 @@ footer .line-footer p i{
     font-size: 22px;
 }
 
+
+/* RESPONSIVO */
 @media screen and (max-width: 1020px) {
+
+    /* CLASSES GERAIS */
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    /* CABEÇALHO */
     .menu-desktop, .btn-contato{
         display: none;
     }
