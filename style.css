@@ -388,4 +388,10 @@ footer .line-footer p i{
     h2.titulo{
         font-size: 30px;
     }
+
+    /* SOBRE */
+    section.sobre .flex{
+        flex-direction: column-reverse;
+        gap: 45px;
+    }
 }
