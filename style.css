@@ -399,5 +399,6 @@ footer .line-footer p i{
     }
 
     .btn-social button{
-        padding: 85px 10%;
+        display: flex;
+        justify-content: center;
     }
