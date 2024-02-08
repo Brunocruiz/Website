@@ -397,8 +397,3 @@ footer .line-footer p i{
     .sobre .txt-sobre h2{
         font-size: 30px;
     }
-
-    .btn-social button{
-        display: flex;
-        justify-content: space-between;
-    }
