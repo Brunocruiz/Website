@@ -1,17 +1,6 @@
-.menu-desktop li a{
-    padding: 10px 30px;
-    border: 0;
-    border-radius: 30px;
-    color: #636262;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-}
+          
 
-header a:hover{
-    color: #fff;
-    background-color: black;
-    transform: scale(1.01);
-    box-shadow: 0 0 17px #ffffff95;
-    transition: 1.2s;
-}
+
+            <script>
+                console.log("Bruno Martins da Cruz");
+            </script>
