@@ -390,10 +390,7 @@ footer .line-footer p i{
     }
 
     .logo img{
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        margin: auto 0;
+        margin-left: 75px;
     }
 
     .topo-do-site h1{
