@@ -65,8 +65,11 @@ header a{
 }
 
 header a:hover{
-    color: #fff;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
+    border: none;
+    color: #fff;
     background-color: black;
     transform: scale(1.01);
     box-shadow: 0 0 17px #ffffff95;
