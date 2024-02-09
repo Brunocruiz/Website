@@ -66,6 +66,7 @@ header a{
 
 header a:hover{
     color: #fff;
+    border-radius: 50%;
     background-color: black;
     transform: scale(1.01);
     box-shadow: 0 0 17px #ffffff95;
