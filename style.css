@@ -130,6 +130,7 @@ section.topo-do-site .flex{
 .topo-do-site .txt-topo-site p{
     color: #fff;
     margin: 40px 0;
+    text-align: justify;
 }
 
 .topo-do-site .img-topo-do-site img{
