@@ -66,8 +66,10 @@ header a{
 
 header a:hover{
     color: #fff;
-    transform: scale(1.05);
-    transition: 1.3s;
+    background-color: black;
+    transform: scale(1.01);
+    box-shadow: 0 0 17px #ffffff95;
+    transition: 1.2s;
 }
 
 header nav ul{
