@@ -383,7 +383,7 @@ footer .line-footer p i{
     }
 
     .logo img{
-        padding: 20px 8%;
+        justify-content: center;
     }
 
     .topo-do-site h1{
