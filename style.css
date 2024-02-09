@@ -36,6 +36,10 @@ body{
     cursor: pointer;
 }
 
+div.txt-topo-site h2{
+    color: #fff;
+}
+
 h2.titulo{
     color: #fff;
     font-size: 38px;
@@ -439,4 +443,3 @@ footer .line-footer p i{
     section.portfolio .flex{
         gap: 50px;
     }
-    
