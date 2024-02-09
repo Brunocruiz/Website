@@ -383,6 +383,7 @@ footer .line-footer p i{
     }
 
     .logo img{
+        display: flex;
         text-align: center;
     }
 
