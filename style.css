@@ -154,6 +154,10 @@ section.especialidades{
     padding: 40px 4%;
 }
 
+.especialidades-box p{
+    text-align: justify;
+}
+
 section.especialidades .flex{
     gap: 60px;
 }
