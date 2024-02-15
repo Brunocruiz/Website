@@ -21,20 +21,60 @@ body{
     display: flex;
 }
 
-.logo img{
-    max-width: 134px;
-    max-height: 134px;
+.logo a{
+    font-size: 20px;
+    color: #fff;
+}
+
+.interface .logo a{
+    margin: -15px;
+}
+.img-octcat img{
+    top: 120px; /* Distância do topo */
+    width: 500px;
+    height: 600px;
+    position: absolute;
+}
+
+div .btn-contato i{
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
 }
 
 .btn-contato button{
-    padding: 10px 40px;
+    padding: 10px 10px;
     font-size: 18px;
     font-weight: 600;
-    background-color: rgb(0, 183, 255);
+    background-color: #000;
+    color: #fff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+    transition: transform 0.3s ease-out;
 }
+
+.btn-contato button:hover{
+    font-weight: 700;
+    transform: translateY(7px);
+}
+
+.btn-link {
+    position: relative;
+    display: inline-block;
+}
+
+.btn-link button,
+.btn-link i {
+    transition: transform 0.3s ease-out;
+}
+
+.btn-link:hover button,
+.btn-link:hover i {
+    font-weight: 700;
+    transform: translateX(10px); /* Ajuste o valor conforme necessário */
+}
+
 
 div.txt-topo-site h2{
     margin-top: 10px;
@@ -73,18 +113,16 @@ header a{
     padding: 10px 30px;
     border: 0;
     border-radius: 30px;
-    color: #636262;
+    color: #fff;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    transition: transform 0.3s ease-out;
 }
 
 .menu-desktop li a:hover{
-    color: #fff;
-    background-color: black;
-    transform: scale(1.01);
-    box-shadow: 0 0 17px #ffffff95;
-    transition: 1.2s;
+    font-weight: 600;
+    transform: translateY(7px);
 }
 
 header nav ul{
@@ -95,19 +133,11 @@ header nav ul li{
     display: inline-block;
     padding: 0 40px;
 }
-
-.btn-contato button:hover{
-    background-color: black;
-    color: #fff;
-    transform: scale(1.01);
-    box-shadow: 0 0 17px #ffffff95;
-    transition: 1.2s;
-}
-
 /* ESTILO DO TOPO DO SITE */
 
 section.topo-do-site{
-    padding: 40px 4%;
+    width: 100%;
+    padding: 235px 4%;
 }
 
 section.topo-do-site .flex{
@@ -413,10 +443,6 @@ footer .line-footer p i{
     /* TOPO DO SITE */
     section.topo-do-site{
         padding: 20px 8%;
-    }
-
-    .logo img{
-        margin-left: 110px;
     }
 
     .topo-do-site h1{
