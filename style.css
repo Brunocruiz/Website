@@ -247,7 +247,7 @@ section.portfolio .flex{
     margin-top: 60px;
 }
 
-.img-port1, .img-port2, .img-port3{
+.img-port{
     width: 360px;
     height: 460px;
     background-size: cover;
