@@ -111,6 +111,7 @@ section.topo-do-site{
 }
 
 section.topo-do-site .flex{
+    max-width: 700px; 
     align-items: center;
     justify-content: center;
     gap: 90px;
@@ -130,12 +131,13 @@ section.topo-do-site .flex{
 .topo-do-site .txt-topo-site p{
     color: #fff;
     margin: 40px 0;
-    text-align: justify;
+    text-align: left;
 }
 
 #texto-animado{
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
+    color: rgb(0, 183, 255);
     border-right: 2px solid #000; /* Linha de simulação do cursor de digitação */
     white-space: nowrap; /* Impede a quebra de linha */
     overflow: hidden; /* Esconde o texto excedente */
@@ -151,6 +153,23 @@ section.topo-do-site .flex{
         top: 30px;
     }
 }
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #000;
+    }
+  }
 
 /* ESTILO ESPECIALIDADES */
 section.especialidades{
