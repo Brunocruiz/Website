@@ -133,11 +133,14 @@ section.topo-do-site .flex{
     text-align: justify;
 }
 
-.topo-do-site .img-topo-do-site img{
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
+#texto-animado{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    border-right: 2px solid #000; /* Linha de simulação do cursor de digitação */
+    white-space: nowrap; /* Impede a quebra de linha */
+    overflow: hidden; /* Esconde o texto excedente */
+    animation: typing 2s steps(40, end), blink-caret 0.5s step-end infinite;
 }
-
 /* KEYFRAMES */
 
 @keyframes flutuar{
