@@ -76,6 +76,3 @@ document.getElementById("img-port1").addEventListener("click", function() {
     // Inicializa a animação do texto
     typeWriter(texto, elementoTexto);
   });
-  
-  
-// FORMULÁRIO
