@@ -1,6 +1,10 @@
-          
-
-
-            <script>
-                console.log("Bruno Martins da Cruz");
-            </script>
+<div class="flex">
+                    <div class="img-port" style="background-image: url(imagens/projeto1.png);" id="img-port1">
+                        <div class="overlay">Website</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(imagens/teste.jpg);" id="img-port2">
+                        <div class="overlay">Projeto 2</div></div>
+                    <div class="img-port" style="background-image: url(imagens/teste.jpg);" id="img-port3">
+                        <div class="overlay">Projeto 3</div></div>
+                </div>
+            </div>
