@@ -1,7 +1,7 @@
 // NAV ROLAGEM SUAVE
 document.addEventListener("DOMContentLoaded", function () {
   // Adiciona o evento de clique a todos os links da navegação
-  document.querySelectorAll('.menu-desktop a').forEach(anchor => {
+  document.querySelectorAll('.menu-desktop a, .btn-contato a').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
           e.preventDefault();
 
