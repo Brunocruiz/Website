@@ -239,16 +239,28 @@ section.especialidades .flex{
 
 /* ESTILO DO SOBRE */
 section.sobre{
+    display: flex;
+    align-items: center;
     padding: 85px 4%;
     box-shadow: 0 0 40px 10px #ffffff34;
 }
 
 section.sobre .flex{
     align-items: center;
+    justify-content: center;
     gap: 60px;
 }
 
+.img-octcat2 img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 0; /* Ajusta a posição da imagem à esquerda */
+    transform: translateY(-50%);
+}
+
 .sobre .txt-sobre{
+    flex: 1;
     color: #fff;
 }
 
@@ -265,24 +277,24 @@ section.sobre .flex{
 
 .sobre .txt-sobre p {
     margin: 18px 0;
-    text-align: justify;
+    text-align: left;
 }
 
 .btn-social button{
+    margin-top: 20px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     border: none;
-    background-color: rgb(0, 183, 255);
+    background-color: black;
+    color: #fff;
     font-size: 21px;
     cursor: pointer;
     margin: 0 5px;
 }
 
 .btn-social button:hover{
-    background-color: black;
-    color: #fff;
-    transform: scale(1.01);
+    transform: scale(1.05);
     box-shadow: 0 0 17px #ffffff95;
     transition: 1.2s;
 }
@@ -390,6 +402,14 @@ form .btn-enviar input:hover{
     transition: 1.2s;
 }
 
+.img-octcat3 img{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    right: 50px; /* Ajusta a posição da imagem à esquerda */
+    
+}
+
 /* DESIGN FOOTER */
 
 footer{
@@ -423,8 +443,8 @@ footer .line-footer p i{
 }
 
 
-/* RESPONSIVO */
-@media screen and (max-width: 1020px) {
+/* RESPONSIVO 1280*/
+@media screen and (max-width: 1280px) {
 
     /* CLASSES GERAIS */
     .flex{
@@ -435,6 +455,10 @@ footer .line-footer p i{
         flex-direction: column-reverse;
     }
 
+    .logo a{
+        display: none;
+    }
+
     /* CABEÇALHO */
     .menu-desktop, .btn-contato{
         display: none;
@@ -443,6 +467,14 @@ footer .line-footer p i{
     /* TOPO DO SITE */
     section.topo-do-site{
         padding: 20px 8%;
+    }
+
+    .img-octcat img{
+        top: 120px; /* Distância do topo */
+        width: 240px;
+        height: 240px;
+        right: 20px;
+        position: absolute;
     }
 
     .topo-do-site h1{
@@ -471,6 +503,10 @@ footer .line-footer p i{
         padding: 85px 10%;
     }
 
+    .img-octcat2 img{
+        display: none;
+    }
+
     .sobre .txt-sobre h2{
         font-size: 30px;
     }
@@ -497,5 +533,27 @@ footer .line-footer p i{
 
     section.portfolio .flex{
         gap: 50px;
+    }
+
+    /* FORMULÁRIO */
+    .img-octcat3 img{
+        width: 440px;
+        height: 440px;
+        right: -75px;
+        position: absolute;
+    }
+}
+
+/* RESPONSIVO 1050 */
+@media screen and (max-width: 1050px){
+
+    /* TOPO */
+    .img-octcat img{
+        display: none;
+    }
+
+    /* FORMULÁRIO */
+    .img-octcat3 img{
+        display: none;
     }
 }
