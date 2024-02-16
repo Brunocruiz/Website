@@ -348,46 +348,6 @@ section.portfolio .flex{
     background-color: #000000a4;
     box-shadow: 0 0 12px #ffffff1c;
 }
-
-/* ESTILO DO FORMULÁRIO DE CONTATO */
-section.formulario{
-    padding: 80px 4%;
-}
-
-form{
-    max-width: 500px;
-    margin: 0 auto;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 13px;
-}
-
-form input, form textarea{
-    width: 100%;
-    background-color: rgba(71, 68, 68, 0.827);
-    border: 0;
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 8px;
-    color: #fff;
-    font-size: 16px;
-}
-
-form textarea{
-    resize: none;
-    height: 185px;
-}
-
-.img-octcat3 img{
-    width: 450px;
-    height: 450px;
-    position: absolute;
-    right: 50px; /* Ajusta a posição da imagem à esquerda */
-    
-}
-
 /* DESIGN FOOTER */
 
 footer{
