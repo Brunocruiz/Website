@@ -382,7 +382,7 @@ form textarea{
 }
 
 [data-form] .btn-enviar {
-    width: 150px;
+    width: 70%;
     height: 35px;
     font-size: 16px;
     margin-top: 5px;
