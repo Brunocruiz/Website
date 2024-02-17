@@ -22,16 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // CLICK PARA PORTFOLIO 1
-document.getElementById('portfolio1').addEventListener('click', function(event) {
-  // Impedir o comportamento padrão do link (evitar que a página seja recarregada)
-  event.preventDefault();
-
-  // Definir o novo URL para o redirecionamento
-  var novoHref = 'C:/Users/Bruno/Documents/MeusProjetos/Website/projetos/portfolio1/portfolio1.html';
-
-  // Redirecionar para o novo URL
-  window.location.href = novoHref;
-});
+function redirecionar() {
+  // Substitua 'https://seu-outro-website.com' pela URL para a qual deseja redirecionar
+  window.location.href = 'C:/Users/Bruno/Documents/MeusProjetos/Website/projetos/portfolio1/portfolio1.html';
+}
 
   // TEXTO DIGITADO
   document.addEventListener('DOMContentLoaded', function() {

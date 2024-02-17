@@ -97,13 +97,17 @@ section{
 .home{
     min-height: 100vh;
     width: 100%;
-    background: #f8ad9d;
+    height: auto;
+    background: url(images/img-product11.png) no-repeat center top / cover;
     background-size: cover;
-    background-position: center top;
     position: relative;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
+}
+
+.home-text{
+    margin-left: -150px;
 }
 
 .home-text h1{
@@ -373,6 +377,8 @@ div .product-image img{
     text-transform: capitalize;
 }
 .card-btn{
+    font-size: 15px;
+    font-weight: 500;
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -488,6 +494,7 @@ div .product-image img{
         padding: 80px 4%;
         transition: .1s;
     }
+
     .product-container {
         justify-content: flex-start; /* Ajustado para começar à esquerda para permitir a rolagem */
         align-items: center;
@@ -500,7 +507,7 @@ div .product-image img{
 
 }
 
-@media (max-width: 670px){
+@media (max-width: 671px){
     #menu-icon{
         display: block;
         cursor: pointer;
@@ -531,6 +538,10 @@ div .product-image img{
     .navlist.open a:hover{
         background: var(--main-color);
         color: var(--text-color);
+    }
+
+    .home-text{
+        margin-left: auto;
     }
 
     .home-text h1{
