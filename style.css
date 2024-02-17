@@ -325,7 +325,7 @@ section.portfolio .flex{
 
 .container-port .card .face{
     width: 300px;
-    height: 200px;
+    height: 201px;
     transition: 0.5s;
 }
 
@@ -382,18 +382,28 @@ section.portfolio .flex{
 }
 
 .container-port .card .face.face2 .content a{
-    margin: 15px 0 0;
     display: inline-block;
     text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.8s;
+
 }
 
 .container-port .card .face.face2 .content a:hover{
-    background: #333;
+    transform: scale(1.1);
     color: #fff;
+}
+
+.content{
+    height: 200px;
+}
+
+.content ul{
+    list-style: none;
 }
 
 .content ul li{
@@ -403,6 +413,7 @@ section.portfolio .flex{
 .content .barras{
     background-color: #ccc;
     display: block;
+    width: 250px;
     height: 20px;
     border-radius: 20px;
     position: relative;
