@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // CLICK PARA PORTFOLIO 1
 function redirecionar() {
-  window.location.href = 'C:/Users/Bruno/Documents/MeusProjetos/Website/projetos/portfolio1/portfolio1.html';
+  window.location.href = 'file:///C:/Users/Bruno/Documents/MeusProjetos/Website/projetos/portfolio1/portfolio1.html';
 }
 
   // TEXTO DIGITADO
