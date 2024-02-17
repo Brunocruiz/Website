@@ -371,7 +371,7 @@ section.portfolio .flex{
 .container-port .card .face.face1 .content h3{
     margin: 10px 0 0;
     padding: 0;
-    color: #fff;
+    color: #000;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -544,9 +544,9 @@ footer .line-footer p i{
 
     .img-octcat img{
         top: 120px; /* Distância do topo */
-        width: 240px;
-        height: 240px;
-        right: 20px;
+        width: 300px;
+        height: 300px;
+        right: 140px;
         position: absolute;
     }
 
@@ -612,7 +612,7 @@ footer .line-footer p i{
 }
 
 /* RESPONSIVO 1050 */
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1110px){
 
     /* TOPO */
     .img-octcat img{
@@ -622,5 +622,25 @@ footer .line-footer p i{
     /* FORMULÁRIO */
     .img-octcat3 img{
         display: none;
+    }
+
+    .container-port {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centralizar os cards horizontalmente */
+    }
+
+    .container-port .card .face.face1 .content{
+        opacity: 1;
+    }
+
+    .container-port .card .face.face1 {
+        background: rgb(0, 183, 255);
+        transform: translateY(0);
+    }
+
+    .container-port .card .face.face2 {
+        transform: translateY(0);
+        margin-bottom: 80px;
     }
 }
