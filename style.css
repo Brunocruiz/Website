@@ -396,28 +396,14 @@ section.portfolio .flex{
     transform: translateY(0);
 }
 
-.container-port .card .face.face2 .content a{
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 15px;
-    width: 100%;
-    font-weight: 600;
-    color: #fff;
-    transition: 0.8s;
-
-}
-
-.container-port .card .face.face2 .content a:hover{
-    transform: scale(1.1);
-    color: #fff;
-}
-
 .content{
     height: 220px;
 }
 
+
+
 .content ul{
+    padding-left: 15px;
     list-style: none;
 }
 
@@ -644,3 +630,44 @@ footer .line-footer p i{
         margin-bottom: 80px;
     }
 }
+
+/* CSS */
+.button-81 {
+    background-color: #fff;
+    border: none;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+    width: 300px;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.button-81:hover {
+    transform: translateY(-5px); /* Ajuste conforme necessário */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.656); /* Ajuste conforme necessário */
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
+
+
