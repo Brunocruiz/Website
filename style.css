@@ -632,7 +632,9 @@ footer .line-footer p i{
 }
 
 /* CSS */
-.button-81 {
+.button-1,
+.button-2,
+.button-3 {
     background-color: #fff;
     border: none;
     box-sizing: border-box;
@@ -656,13 +658,17 @@ footer .line-footer p i{
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.button-81:hover {
+.button-1:hover,
+.button-2:hover,
+.button-3:hover {
     transform: translateY(-5px); /* Ajuste conforme necessário */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.656); /* Ajuste conforme necessário */
 }
 
 @media (min-width: 768px) {
-  .button-81 {
+    .button-1,
+    .button-2,
+    .button-3 {
     font-size: 1.125rem;
     padding: 1rem 2rem;
   }
