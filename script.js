@@ -20,10 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
-// CLICK PARA PORTFOLIO 1
-
-
   // TEXTO DIGITADO
   document.addEventListener('DOMContentLoaded', function() {
     // Texto que será animado com quebras de linha
