@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // TEXTO DIGITADO
   document.addEventListener('DOMContentLoaded', function() {
     // Texto que será animado com quebras de linha
-    const texto = 'Desenvolvedor Full Stack.';
+    const texto = 'Desenvolvedor FullStack.';
   
     // Elemento onde o texto será exibido
     const elementoTexto = document.getElementById('texto-animado');
