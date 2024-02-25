@@ -1,54 +1,15 @@
-<div class="flex">
-                    <div class="img-port" style="background-image: url(imagens/projeto1.png);" id="img-port1">
-                        <div class="overlay">Website</div>
-                    </div>
-                    <div class="img-port" style="background-image: url(imagens/teste.jpg);" id="img-port2">
-                        <div class="overlay">Projeto 2</div></div>
-                    <div class="img-port" style="background-image: url(imagens/teste.jpg);" id="img-port3">
-                        <div class="overlay">Projeto 3</div></div>
-                </div>
-            </div>
+/* Link and Logo Hover Effects */
+.link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: all 0.6s ease;
+}
 
-
-
-
-            .btn > .circle {
-                --size: 2.5rem;
-                position: absolute;
-                left: 0;
-                display: block;
-                width: var(--size);
-                height: var(--size);
-                background-color: #ded8f4;
-                border-radius: 1.5rem;
-                z-index: -1;
-                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-              }
-              .btn > .text {
-                margin-left: 1.25rem;
-                font-weight: 700;
-                letter-spacing: 1px;
-                transition: all 0.45s;
-              }
-              .circle > i {
-                font-size: 1rem;
-                position: absolute;
-                left: calc(var(--size) / 2);
-                top: calc(var(--size) / 2);
-                transform: translate(-50%, -50%);
-                color: black;
-                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-              }
-              
-              .btn:hover > .circle {
-                width: 100%;
-              }
-              .btn:hover > .circle > i {
-                translate: 1rem 0;
-              }
-              .btn:hover > .text {
-                color: black;
-              }
-
-
-              
+.link:hover::before {
+  transform: scaleX(1);
+}
