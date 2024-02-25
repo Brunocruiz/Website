@@ -145,6 +145,7 @@ header a{
     font-size: 18px;
     padding: 0.5rem;
     position: relative;
+    transition: all .35s ease;
 }
 
   /* Link and Logo Hover Effects */
