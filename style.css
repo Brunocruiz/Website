@@ -82,8 +82,8 @@ div .btn-contato i{
   }
   .btn > .text {
     margin-left: -17.25rem;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-weight: 600;
+
     transition: all 0.45s;
   }
   .circle > i {
