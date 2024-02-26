@@ -639,16 +639,20 @@ footer .line-footer p i{
     }
 
     .btn > .circle{
-        width: 68%;
+        width: 38%;
     }
 
     .btn:hover > .circle{
-        width: 68%;
+        width: 38%;
     }
 
     .btn > .text {
-        margin-left: -6.25rem;
+        margin-left: -27.25rem;
       }
+
+    .card{
+        margin: 20px 27px 20px;
+    }
 
     /* TOPO DO SITE */
     section.topo-do-site{
@@ -765,16 +769,24 @@ footer .line-footer p i{
     }
 
     .btn > .circle{
-        width: 68%;
+        width: 38%;
     }
 
     .btn:hover > .circle{
-        width: 68%;
+        width: 38%;
     }
 
     .btn > .text {
-        margin-left: -6.25rem;
-      }
+        margin-left: -27rem;
+    }
+
+      .card{
+        margin: 20px 10px 20px;
+    }
+
+    section.portfolio {
+        padding: 80px 8%;
+    }
 }
 
 /* CSS */
@@ -808,13 +820,28 @@ footer .line-footer p i{
     text-decoration: underline #000;
 }
 
-@media (min-width: 768px) {
-    .button-1,
-    .button-2,
-    .button-3 {
+@media screen and (max-width: 768px) {
+
+.button-1,
+.button-2,
+.button-3 {
     font-size: 1.125rem;
-    padding: 1rem 2rem;
-  }
+    padding: 1rem 2re
+}
+
+.btn > .circle{
+    width: 65%;
+}
+
+.btn:hover > .circle{
+    width: 65%;
+}
+
+.btn > .text {
+    margin-left: -7rem;
+}
+
+
 }
 
 
