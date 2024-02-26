@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // REDIRECIONANDO PROJETO 1,2 e 3
 document.getElementById("card1").addEventListener("click", function() {
     // Defina o URL para redirecionamento
-    var redirectURL = "C:/Users/Bruno/Documents/MeusProjetos/Website/projetos/projeto1/projeto1.html";
+    var redirectURL = "projeto1.html";
 
     // Redirecione para o URL especificado
     window.location.href = redirectURL;
