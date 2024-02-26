@@ -29,12 +29,6 @@ body{
 .interface .logo a{
     margin: -15px;
 }
-.img-octcat img{
-    top: 120px; /* Distância do topo */
-    width: 500px;
-    height: 600px;
-    position: absolute;
-}
 
 div .btn-contato i{
     display: inline-block;
@@ -239,6 +233,15 @@ section.topo-do-site .flex{
 .content__container__list__item {
     line-height: 40px;
     margin: 0;
+}
+
+
+svg{
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  right: 290px;
+  top: 250px;
 }
 
 /* KEYFRAMES */
@@ -659,14 +662,6 @@ footer .line-footer p i{
         padding: 20px 8%;
     }
 
-    .img-octcat img{
-        top: 120px; /* Distância do topo */
-        width: 300px;
-        height: 300px;
-        right: 140px;
-        position: absolute;
-    }
-
     .topo-do-site h1{
         font-size: 30px;
     }
@@ -732,9 +727,7 @@ footer .line-footer p i{
 @media screen and (max-width: 1110px){
 
     /* TOPO */
-    .img-octcat img{
-        display: none;
-    }
+
 
     /* FORMULÁRIO */
     .img-octcat3 img{
@@ -840,10 +833,4 @@ footer .line-footer p i{
 .btn > .text {
     margin-left: -7rem;
 }
-
-
 }
-
-
-
-
