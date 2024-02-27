@@ -19,28 +19,3 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
-
-// REDIRECIONANDO PROJETO 1,2 e 3
-document.getElementById("card1").addEventListener("click", function() {
-    // Defina o URL para redirecionamento
-    var redirectURL = "projetos/projeto1/projeto1.html";
-
-    // Redirecione para o URL especificado
-    window.location.href = redirectURL;
-});
-
-document.getElementById("card2").addEventListener("click", function() {
-    // Defina o URL para redirecionamento
-    var redirectURL = "projetos/projeto2/projeto2.html";
-
-    // Redirecione para o URL especificado
-    window.location.href = redirectURL;
-});
-
-document.getElementById("card3").addEventListener("click", function() {
-    // Defina o URL para redirecionamento
-    var redirectURL = "projetos/projeto3/projeto3.html";
-
-    // Redirecione para o URL especificado
-    window.location.href = redirectURL;
-});
