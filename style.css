@@ -512,6 +512,47 @@ section.portfolio .flex{
     margin-top: 60px;
 }
 
+.projeto1, .projeto3{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+.projeto2{
+  color: #fff;
+  display: flex;
+  flex-direction: row-reverse; /* Inverte a ordem dos itens na direção da linha (horizontal) */
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+.projeto1 img,
+.projeto2 img,
+.projeto3 img{
+  width: 600px;
+  height: auto;
+}
+
+.description {
+  margin-left: 25px;
+  margin-right: 15px;
+  border-left: #fff 2px solid;
+  padding-left: 10px;
+}
+
+.description h3{
+  padding-bottom: 15px;
+}
+
+.description p {
+  margin-bottom: 10px; /* Adicionar espaçamento entre os parágrafos */
+}
+
+.description a {
+  text-decoration: none; /* Remover sublinhado do link */
+  color: aquamarine;
+}
 
 /* DESIGN FOOTER */
 
