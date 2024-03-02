@@ -197,11 +197,12 @@ nav{
     display: flex;
     gap: 20px;
 }
-.featured-text-btn>.blue-btn{
+.blue-btn{
     background: var(--first-color);
     color: var(--color-white);
+    padding: 12px 20px;
 }
-.featured-text-btn>.blue-btn:hover{
+.blue-btn:hover{
     background: var(--first-color-hover);
 }
 .social_icons{
