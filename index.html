@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,6 +31,14 @@
                     <li><a href="#sobre" class="link">Sobre</a></li>
                     <li><a href="#projetos" class="link">Projetos</a></li>
                     <li><a href="https://api.whatsapp.com/send?phone=+5573981287473&text=Ol%C3%A1+Bruno%2C+tudo+bem%3F" target="_blank" class="link">Contato</a></li>
+                    <div class="dark-mode">
+                      <span class="material-icons-sharp active">
+                          light_mode
+                      </span>
+                      <span class="material-icons-sharp">
+                          dark_mode
+                      </span>
+                  </div>
                 </ul>
             </nav><!--ABA DE NAVEGAÇÃO-->
         </div><!--INTERFACE-->
@@ -138,32 +147,6 @@
                                   <stop offset="0.5" stop-color="#141417"/>
                                   <stop offset="1" stop-color="#40354a"/>
                                 </linearGradient>
-                              
-                              <!-- STARS --> 
-                              <pattern id="stars" x="0" y="0" width="50%" height="50%" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
-                                <rect width="256" height="256" fill="url(#sky)"/>
-                                <use href="#star01" x="24" y="32"  fill="white"/>
-                                <use href="#star01" x="64" y="96"  fill="#ad9dcb" transform="rotate(90 80 112)"/>
-                                <use href="#star01" x="224" y="102"  fill="#ad9dcb"/>
-                                <use href="#star01" x="192" y="112"  fill="#E0E8EA" transform="rotate(90 80 112)"/>
-                                <use href="#star02" x="16" y="64"  fill="#ad9dcb"/>
-                                <use href="#star03" x="96" y="16"  fill="#E0E8EA"/>
-                                <use href="#star04" x="64" y="64"  fill="white"/>
-                                <use href="#star04" x="8" y="16"  fill="#ad9dcb"/>
-                                <use href="#star04" x="110" y="96"  fill="#E0E8EA"/>
-                                <use href="#star02" x="160" y="24"  fill="#ad9dcb"/>
-                                <use href="#star03" x="196" y="60"  fill="#E0E8EA"/>
-                                <use href="#star04" x="64" y="212"  fill="white"/>
-                                <use href="#star04" x="218" y="216"  fill="#ad9dcb"/>
-                                <use href="#star03" x="228" y="220"  fill="#E0E8EA"/>
-                                <use href="#star02" x="140" y="128"  fill="#ad9dcb"/>
-                                <use href="#star03" x="24" y="140"  fill="#E0E8EA"/>
-                                <use href="#star04" x="95" y="160"  fill="white"/>
-                                <use href="#star04" x="180" y="128"  fill="#ad9dcb"/>
-                                <use href="#star03" x="200" y="136"  fill="#E0E8EA"/>
-                                <use href="#star10" x="120" y="120"  stroke="#E0E8EA"/>
-                                <use href="#star11" x="48" y="64"  stroke="#ad9dcb"/>
-                              </pattern>
                               <path id="star01" transform="scale(0.5)">
                                 <animate attributeName="d" dur="3s" repeatCount="indefinite" calcMode="spline"
                                   keyTimes="0;0.5;1" keySplines="0.8 0.2 0.6 0.9; 0.8 0.2 0.6 0.9"
@@ -281,35 +264,112 @@
         <section class="portfolio" id="projetos">  
             <div class="interface">
                 <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
-                <div class="projeto1">
-                  <img src="imagens/cap-projeto1.png">
-                  <div class="description">
-                      <h3>WEBSITE E-COMMERCE</h3>
-                      <p>Finalidade: Projeto desenvolvido para fins de estudo e conhecimento.<br></p>
-                      <p>Funcionalidades do projeto: design responsivo, botões com funcionalidades intuitivas, carrossel de produtos, barra de navegação intuitiva e footer para contato.</p>
-                      <a href="projetos/projeto1/projeto1.html"><span>Read me</span></a>
+            </div>
+            <div class="flex-col">
+              <div class="card"> <!--CARD 1-->
+                <figure class>
+                  <img src="">
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title"></h2>
+                  <p>DSFSADFDASFSADFDSFAS</p>
+                  <div class="card-tec">
+                    <div>
+                      <p>HTML</p>
+                    </div>
+                    <div>
+                      <p>CSS</p>
+                    </div>
+                    <div>
+                      <p>JAVASCRIPT</p>
+                    </div>
                   </div>
-                </div>
+                  <div class="link-code">
+                    <a href="">
+                      <button class="card-btn">
+                        Code Source
+                        <img src="">
+                      </button>
+                    </a>
+                    <a href="">
+                      <button class="card-btn">
+                        Live Demo
+                        <img src="">
+                      </button>
+                    </a>
+                  </div>
+                </div> 
+              </div>
 
-                <div class="projeto2">
-                  <img src="imagens/cap-projeto2.png">
-                  <div class="description">
-                      <h3>ENTERPRISE RESOURCE PLANNING</h3>
-                      <p>Finalidade: Projeto desenvolvido para fins de estudo e conhecimento.<br></p>
-                      <p>Funcionalidades do projeto: design responsivo, dashboard, Dark mode, botões com funcionalidades intuitivas e barra de navegação intuitiva.</p>
-                      <a href="projetos/projeto2/projeto2.html"><span>Read me</span></a>
+              <div class="card"> <!--CARD 1-->
+                <figure class>
+                  <img src="">
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title"></h2>
+                  <p>DSFSADFDASFSADFDSFAS</p>
+                  <div class="card-tec">
+                    <div>
+                      <p>HTML</p>
+                    </div>
+                    <div>
+                      <p>CSS</p>
+                    </div>
+                    <div>
+                      <p>JAVASCRIPT</p>
+                    </div>
                   </div>
-                </div>
+                  <div class="link-code">
+                    <a href="">
+                      <button class="card-btn">
+                        Code Source
+                        <img src="">
+                      </button>
+                    </a>
+                    <a href="">
+                      <button class="card-btn">
+                        Live Demo
+                        <img src="">
+                      </button>
+                    </a>
+                  </div>
+                </div> 
+              </div>
 
-                <div class="projeto3">
-                  <img src="imagens/cap-projeto3.png">
-                  <div class="description">
-                      <h3>BLOG</h3>
-                      <p>Finalidade: Projeto desenvolvido para fins de estudo e conhecimento.<br></p>
-                      <p>Funcionalidades do projeto: design responsivo, navegação por tópicos e sign up.</p>
-                      <a href="projetos/projeto3/projeto3.html"><span>Read me</span></a>
+              <div class="card"> <!--CARD 1-->
+                <figure class>
+                  <img src="">
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title"></h2>
+                  <p>DSFSADFDASFSADFDSFAS</p>
+                  <div class="card-tec">
+                    <div>
+                      <p>HTML</p>
+                    </div>
+                    <div>
+                      <p>CSS</p>
+                    </div>
+                    <div>
+                      <p>JAVASCRIPT</p>
+                    </div>
                   </div>
-                </div>
+                  <div class="link-code">
+                    <a href="">
+                      <button class="card-btn">
+                        Code Source
+                        <img src="">
+                      </button>
+                    </a>
+                    <a href="">
+                      <button class="card-btn">
+                        Live Demo
+                        <img src="">
+                      </button>
+                    </a>
+                  </div>
+                </div> 
+              </div>
             </div>
         </section>
     </main>
